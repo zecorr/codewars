@@ -13,6 +13,9 @@
 // }
 
 // Solution 1:
+// is a global function in JavaScript that can be used to convert any value to a string, including numbers.
+// It works by taking the value passed to it as an argument and returning a string representation of that value.
+// Since it is a global function, it can be used anywhere in your JavaScript code without needing to be called on a specific object.
 function numberToString(num) {
   return String(num);
 }
