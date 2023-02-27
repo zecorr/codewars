@@ -13,3 +13,14 @@
 // function makeNegative(num) {
 // Code?
 // }
+
+// Solution 1:
+function makeNegative(num) {
+  if (num === 0) {
+    return num;
+  } else if (num < 0) {
+    return num;
+  } else if (num > 0) {
+    return -num;
+  }
+}
