@@ -8,3 +8,11 @@
 // function solution(str){
 
 // }
+
+// Solution 1:
+function solution(str) {
+  let splitStr = str.split("");
+  let reverseStr = splitStr.reverse();
+  let joinStr = reverseStr.join("");
+  return joinStr;
+}
