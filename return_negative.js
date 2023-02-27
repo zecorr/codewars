@@ -32,3 +32,8 @@ function makeNegative(num) {
   }
   return num < 0 ? num : -num;
 }
+
+// Solution 3: refactor with ternary operator and or operator
+function makeNegative(num) {
+  return num === 0 || num < 0 ? num : -num;
+}
