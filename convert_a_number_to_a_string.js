@@ -27,3 +27,6 @@ function numberToString(num) {
 function numberToString(num) {
   return num.toString();
 }
+
+// Solution 3: Refactor preferred method with arrow function
+const numberToString = (num) => String(num);
