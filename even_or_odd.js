@@ -13,3 +13,8 @@ function evenOrOdd(number) {
     return "Odd";
   }
 }
+
+// Refactor with ternary operator
+function evenOrOdd(number) {
+  return number % 2 === 0 ? "Even" : "Odd";
+}
