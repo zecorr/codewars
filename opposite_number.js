@@ -16,5 +16,5 @@ function opposite(number) {
   return -number;
 }
 
-// Solution 2 - refactor with arrow function
+// Solution 2: Refactor with arrow function
 const opposite = (number) => -number;

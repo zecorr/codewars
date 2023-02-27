@@ -5,10 +5,10 @@
 //   a * b
 // }
 
-// Solution 1
+// Solution 1:
 function multiply(a, b) {
   return a * b;
 }
 
-// Solution 2 - refactor with arrow function
+// Solution 2: Refactor with arrow function
 const multiply = (a, b) => a * b;

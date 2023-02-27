@@ -5,7 +5,7 @@
 //
 // }
 
-// Solution 1
+// Solution 1:
 function evenOrOdd(number) {
   if (number % 2 === 0) {
     return "Even";
@@ -14,7 +14,7 @@ function evenOrOdd(number) {
   }
 }
 
-// Refactor with ternary operator
+// Solution 2: Refactor with ternary operator
 function evenOrOdd(number) {
   return number % 2 === 0 ? "Even" : "Odd";
 }
