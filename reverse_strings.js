@@ -4,3 +4,7 @@
 
 // 'world'  =>  'dlrow'
 // 'word'   =>  'drow'
+
+// function solution(str){
+
+// }
