@@ -19,3 +19,6 @@ function repeatStr(n, s) {
   }
   return str;
 }
+
+// Solution 2: Refactor using repeat() method with arrow function
+const repeatStr = (n, s) => s.repeat(n);
