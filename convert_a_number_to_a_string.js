@@ -11,3 +11,8 @@
 // function numberToString(num) {
 //    Return a string of the number here!
 // }
+
+// Solution 1:
+function numberToString(num) {
+  return String(num);
+}
