@@ -37,3 +37,6 @@ function makeNegative(num) {
 function makeNegative(num) {
   return num === 0 || num < 0 ? num : -num;
 }
+
+// Solution 4: refactor with arrow function
+const makeNegative = (num) => (num === 0 || num < 0 ? num : -num);
