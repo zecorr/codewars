@@ -19,3 +19,11 @@
 function numberToString(num) {
   return String(num);
 }
+
+// Solution 2:
+// is a method giving you more control over how the number is represented allowing you to convert a number to a string in a specific base.
+// num.toString(2) will convert a number to a binary string. eg. numberToString(5) will output '101'.
+// num.toString(16) will convert a number to a hexadecimal string. eg. numberToString(12648430) will output 'c0ffee'
+function numberToString(num) {
+  return num.toString();
+}
