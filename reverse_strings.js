@@ -16,3 +16,6 @@ function solution(str) {
   let joinStr = reverseStr.join("");
   return joinStr;
 }
+
+// Solution 2: Refactor using arrow function
+const solution = (str) => str.split("").reverse().join("");
