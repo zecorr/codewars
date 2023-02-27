@@ -4,3 +4,8 @@
 // function multiply(a, b){
 //   a * b
 // }
+
+// Solution 1
+function multiply(a, b) {
+  return a * b;
+}
