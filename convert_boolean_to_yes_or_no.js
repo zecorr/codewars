@@ -6,7 +6,9 @@
 // }
 
 // Solution 1:
-
 function boolToWord(bool) {
   return bool === true ? "Yes" : "No";
 }
+
+// Solution 2: Refactor with arrow function
+const boolToWord = (bool) => (bool === true ? "Yes" : "No");
