@@ -13,3 +13,36 @@
 // function digitalRoot(n) {
 // ...
 // }
+
+// Solution 1:
+function digitalRoot(n) {
+  // global variables
+  let arr = String(n).split("");
+  let newInt = 0;
+
+  // convert array to integer
+  const arrToInt = function () {
+    for (let i = 0; i < arr.length; i++) {
+      newInt += parseInt(arr[i]);
+    }
+  };
+
+  // check length of array
+  const checkLength = function () {
+    let intLength = newInt.toString().length;
+    for (let i = 0; i < intLength; i++) {
+      if (intLength > 1) {
+        arr = String(newInt).split("");
+        newInt = 0;
+        arrToInt();
+      } else {
+        return newInt;
+      }
+    }
+  };
+
+  arrToInt();
+  checkLength();
+
+  return newInt;
+}
