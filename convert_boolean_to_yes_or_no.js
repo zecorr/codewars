@@ -12,3 +12,6 @@ function boolToWord(bool) {
 
 // Solution 2: Refactor with arrow function
 const boolToWord = (bool) => (bool === true ? "Yes" : "No");
+
+// Solution 3: Refactor
+const boolToWord = (bool) => (bool ? "Yes" : "No");
