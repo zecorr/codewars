@@ -4,3 +4,9 @@
 // function boolToWord( bool ){
 //   ...
 // }
+
+// Solution 1:
+
+function boolToWord(bool) {
+  return bool === true ? "Yes" : "No";
+}
