@@ -9,3 +9,6 @@
 function noSpace(x) {
   return x.split(" ").join("");
 }
+
+// Solution 2: Refactor with arrow function
+const noSpace = (x) => x.split(" ").join("");
