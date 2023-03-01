@@ -26,3 +26,15 @@ function getCount(str) {
   }
   return counter;
 }
+
+// Solution 2: Refactor with Regular Expression - https://www.w3schools.com/js/js_regexp.asp
+// /pattern/modifiers
+// within str.match() the regular expression is setup by putting the pattern we're looking for within 2 forward slashes "/ /"
+// putting "aeiou" within the regex will look for the exact phrase "aeiou".
+// putting "aeiou" within square brackets "[aeiou]" allows us to find any of the characters within the brackets.
+// putting the "i" modifier performs case-insensitive matching.
+// putting the "g" modifier performs a global match (find all matches rather than stopping after the first match)
+// putting .length at the end
+function getCount(str) {
+  return str.match(/[aeiou]/gi).length;
+}
